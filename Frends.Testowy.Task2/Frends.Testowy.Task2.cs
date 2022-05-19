@@ -21,7 +21,7 @@ namespace Frends.Testowy.Task2
             {
                 InputText = input.InputText
             };
-
+            
             var output = new Result
             {
                 TextInUppercase = inputText.InputText.ToUpper()
