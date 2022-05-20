@@ -11,10 +11,10 @@ namespace Frends.Testowy.Task2
     public class Parameters
     {
         /// <summary>
-        /// Text to uppercase.
+        /// Text to convert.
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
-        [DefaultValue("Text to uppercase")]
+        [DefaultValue("Text to convert")]
         public string InputText { get; set; }
     }
 
@@ -23,9 +23,9 @@ namespace Frends.Testowy.Task2
     public class Result
     {
         /// <summary>
-        /// Contains the input text in uppercase.
+        /// Contains the input text in uppercase or lowercase.
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
-        public string TextInUppercase;
+        public string OutputText;
     }
 }

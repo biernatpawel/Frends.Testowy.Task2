@@ -6,13 +6,13 @@ using Microsoft.CSharp; // You can remove this if you don't need dynamic type in
 
 namespace Frends.Testowy.Task2
 {
-    public static class UpperClass
+    public static class TextConvert
     {
         /// <summary>
         /// This is task
         /// Documentation: https://github.com/CommunityHiQ/Frends.Testowy.Task2
         /// </summary>
-        /// <param name="input">What to repeat.</param>
+        /// <param name="input">Text to convert.</param>
 
 
         public static Result UpperText(Parameters input)
@@ -24,11 +24,27 @@ namespace Frends.Testowy.Task2
             
             var output = new Result
             {
-                TextInUppercase = inputText.InputText.ToUpper()
+                OutputText = inputText.InputText.ToUpper()
             };
 
             return output;
             
+        }
+
+        public static Result LowerText(Parameters input)
+        {
+            var inputText = new Parameters
+            {
+                InputText = input.InputText
+            };
+
+            var output = new Result
+            {
+                OutputText = inputText.InputText.ToLower()
+            };
+
+            return output;
+
         }
     }
 

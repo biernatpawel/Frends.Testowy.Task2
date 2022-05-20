@@ -1,7 +1,8 @@
 ﻿{
 	"Tasks": [
 		{
-			"TaskMethod": "Frends.Testowy.Task2.UpperClass.UpperText"
+			"TaskMethod1": "Frends.Testowy.Task2.TextConvert.UpperText",
+			"TaskMethod2": "Frends.Testowy.Task2.TextConvert.LowerText"
 		}
 	]
 }
