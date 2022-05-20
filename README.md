@@ -22,17 +22,17 @@ https://www.myget.org/F/frends-community/api/v3/index.json and in Gallery view i
 
 Convert a Text
 
-### Properties
+### Parameters
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Message | `string` | Some string that will be converted. | `blabla` |
+| InputText | `string` | Some string that will be converted. | `blabla` |
 
 ### Options
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Text action | `string` | What to do with input text | `Uppercase` |
+| TextAction | `string` | What to do with input text | `Uppercase` |
 
 
 ### Returns
