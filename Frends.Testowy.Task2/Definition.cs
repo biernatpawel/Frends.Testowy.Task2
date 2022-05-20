@@ -5,6 +5,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Frends.Testowy.Task2
 {
+
+    public enum TextActionEnum { Uppercase, Lowercase };
     /// <summary>
     /// Parameters class usually contains parameters that are required.
     /// </summary>
@@ -18,6 +20,17 @@ namespace Frends.Testowy.Task2
         public string InputText { get; set; }
     }
 
+    public class Options
+    {
+
+        /// <summary>
+        /// What to do with input text.
+        /// </summary>
+        [DefaultValue(TextActionEnum.Uppercase)]
+        public TextActionEnum TextAction { get; set; }
+
+
+    }
  
 
     public class Result
