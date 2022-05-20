@@ -1,12 +1,12 @@
 # Frends.Testowy.Task2
 
-frends Community Task for UpperClass
+frends Community Task for TextConvert
 
 [![Actions Status](https://github.com/CommunityHiQ/Frends.Testowy.Task2/workflows/PackAndPushAfterMerge/badge.svg)](https://github.com/CommunityHiQ/Frends.Testowy.Task2/actions) ![MyGet](https://img.shields.io/myget/frends-community/v/Frends.Testowy.Task2) [![License: UNLICENSED](https://img.shields.io/badge/License-UNLICENSED-yellow.svg)](https://opensource.org/licenses/UNLICENSED) 
 
 - [Installing](#installing)
 - [Tasks](#tasks)
-     - [TextConvert](#UpperClass)
+     - [ConvertText](#ConvertText)
 - [Building](#building)
 - [Contributing](#contributing)
 - [Change Log](#change-log)
