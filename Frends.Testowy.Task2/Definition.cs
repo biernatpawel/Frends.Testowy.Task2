@@ -29,8 +29,6 @@ namespace Frends.Testowy.Task2
         [DisplayFormat(DataFormatString = "Text")]
         [DefaultValue(TextActionEnum.Uppercase)]
         public TextActionEnum TextAction { get; set; }
-
-
     }
  
 
@@ -41,5 +39,6 @@ namespace Frends.Testowy.Task2
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
         public string OutputText;
+        public string Status;
     }
 }

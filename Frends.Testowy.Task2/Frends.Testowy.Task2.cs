@@ -24,7 +24,8 @@ namespace Frends.Testowy.Task2
 
             var output = new Result
             {
-                OutputText = ""
+                OutputText = "",
+                Status = "Text converted"
             };
 
 
@@ -32,10 +33,12 @@ namespace Frends.Testowy.Task2
             {
                 case TextActionEnum.Uppercase:
                     output.OutputText = inputText.InputText.ToUpper();
+                    output.Status = "Text converted - To Upper";
                     break;
 
                 case TextActionEnum.Lowercase:
-                    output.OutputText = inputText.InputText.ToLower();  
+                    output.OutputText = inputText.InputText.ToLower();
+                    output.Status = "Text converted - To Lower";
                     break;
             }
 
