@@ -13,9 +13,9 @@ namespace Frends.Testowy.Task2
         /// Documentation: https://github.com/CommunityHiQ/Frends.Testowy.Task2
         /// </summary>
         /// <param name="input">Text to convert.</param>
-        /// <param name="action">Kind of conversion.</param>
+        /// <param name="options">Kind of conversion.</param>
 
-        public static Result ConvertText(Parameters input, [PropertyTab]Options action)
+        public static Result ConvertText([PropertyTab]Parameters input, [PropertyTab]Options options)
         {
             var inputText = new Parameters
             {
@@ -28,7 +28,7 @@ namespace Frends.Testowy.Task2
             };
 
 
-            switch (action.TextAction)
+            switch (options.TextAction)
             {
                 case TextActionEnum.Uppercase:
                     output.OutputText = inputText.InputText.ToUpper();
