@@ -26,6 +26,7 @@ namespace Frends.Testowy.Task2
         /// <summary>
         /// What to do with input text.
         /// </summary>
+        [DisplayFormat(DataFormatString = "Text")]
         [DefaultValue(TextActionEnum.Uppercase)]
         public TextActionEnum TextAction { get; set; }
 
