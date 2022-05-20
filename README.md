@@ -6,7 +6,7 @@ frends Community Task for UpperClass
 
 - [Installing](#installing)
 - [Tasks](#tasks)
-     - [UpperClass](#UpperClass)
+     - [TextConvert](#UpperClass)
 - [Building](#building)
 - [Contributing](#contributing)
 - [Change Log](#change-log)
@@ -18,22 +18,22 @@ https://www.myget.org/F/frends-community/api/v3/index.json and in Gallery view i
 
 # Tasks
 
-## UpperClass
+## TextConvert
 
-Repeats a message
+Convert a Text
 
 ### Properties
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Message | `string` | Some string that will be repeated. | `foo` |
+| Message | `string` | Some string that will be converted. | `blabla` |
 
 ### Options
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Amount | `int` | Amount how many times message is repeated. | `3` |
-| Delimiter | `string` | Character(s) used between replications. | `, ` |
+| Text action | `string` | What to do with input text | `Uppercase` |
+
 
 ### Returns
 
@@ -41,12 +41,13 @@ A result object with parameters.
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Replication | `string` | Repeated string. | `foo, foo, foo` |
+| OutputText | `string` | Converted string. | `BLABLA` |
+| Status | `string` | Converted string. | `Text converted - To Upper` |
 
 Usage:
 To fetch result use syntax:
 
-`#result.Replication`
+`#result.OutputText`
 
 # Building
 
@@ -81,4 +82,4 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 | Version | Changes |
 | ------- | ------- |
-| 0.0.1   | Development still going on |
+| 0.0.6   | Development still going on |

@@ -30,7 +30,6 @@ namespace Frends.Testowy.Task2
         [DefaultValue(TextActionEnum.Uppercase)]
         public TextActionEnum TextAction { get; set; }
     }
- 
 
     public class Result
     {
